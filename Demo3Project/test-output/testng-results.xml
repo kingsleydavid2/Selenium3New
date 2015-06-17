@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26370" started-at="2015-06-17T20:42:51Z" finished-at="2015-06-17T20:43:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26370" started-at="2015-06-17T20:42:51Z" finished-at="2015-06-17T20:43:17Z">
+      <class name="Demo3Pro.NewTest">
+        <test-method status="PASS" signature="myBefore()[pri:0, instance:Demo3Pro.NewTest@4c75cab9]" name="myBefore" is-config="true" duration-ms="27994" started-at="2015-06-18T02:12:23Z" finished-at="2015-06-18T02:12:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myBefore -->
+        <test-method status="PASS" signature="driverDFTest()[pri:0, instance:Demo3Pro.NewTest@4c75cab9]" name="driverDFTest" duration-ms="26357" started-at="2015-06-18T02:12:51Z" finished-at="2015-06-18T02:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverDFTest -->
+        <test-method status="FAIL" signature="myEndCode()[pri:0, instance:Demo3Pro.NewTest@4c75cab9]" name="myEndCode" is-config="true" duration-ms="0" started-at="2015-06-18T02:13:17Z" finished-at="2015-06-18T02:13:17Z">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[C:\DDF\Project4-DDF-Res.xls (The process cannot access the file because it is being used by another process)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: C:\DDF\Project4-DDF-Res.xls (The process cannot access the file because it is being used by another process)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at Demo3Pro.NewTest.writeXL(NewTest.java:139)
+	at Demo3Pro.NewTest.myEndCode(NewTest.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:308)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myEndCode -->
+      </class> <!-- Demo3Pro.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
