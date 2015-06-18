@@ -16,4 +16,9 @@
       </plugin>
     </plugins>
   </build>
+<configuration>
+<suiteXmlFiles>
+<suiteXmlFile>testng.xml</suiteXmlFile>
+</suiteXmlFiles>
+</configuration>
 </project>
