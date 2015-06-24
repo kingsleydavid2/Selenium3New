@@ -99,7 +99,12 @@ public class NewTest {
 				//TC001	8	Total payments
 				vTotalPayment = driver.findElement(By.xpath(xTotal)).getText();
 				System.out.println("Total payment is : " + vTotalPayment);
-				xData[i][8] = vTotalPayment;			
+				xData[i][8] = vTotalPayment;	
+				
+				//TC001		Total payments
+				vTotalPayment = driver.findElement(By.xpath(xTotal)).getText();
+				System.out.println("Total payment is : " + vTotalPayment);
+				xData[i][8] = vTotalPayment;	
 			}
 		}
 	}

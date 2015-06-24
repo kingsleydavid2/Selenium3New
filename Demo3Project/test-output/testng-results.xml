@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite One" duration-ms="24141" started-at="2015-06-18T18:30:06Z" finished-at="2015-06-18T18:30:30Z">
+  <suite name="Default suite" duration-ms="24748" started-at="2015-06-24T16:45:50Z" finished-at="2015-06-24T16:46:15Z">
     <groups>
     </groups>
-    <test name="Test One" duration-ms="24141" started-at="2015-06-18T18:30:06Z" finished-at="2015-06-18T18:30:30Z">
+    <test name="Default test" duration-ms="24748" started-at="2015-06-24T16:45:50Z" finished-at="2015-06-24T16:46:15Z">
       <class name="Demo3Pro.NewTest">
-        <test-method status="PASS" signature="myBefore()[pri:0, instance:Demo3Pro.NewTest@ba4d54]" name="myBefore" is-config="true" duration-ms="11431" started-at="2015-06-18T23:59:55Z" finished-at="2015-06-19T00:00:06Z">
+        <test-method status="PASS" signature="myBefore()[pri:0, instance:Demo3Pro.NewTest@d70c109]" name="myBefore" is-config="true" duration-ms="12399" started-at="2015-06-24T22:15:37Z" finished-at="2015-06-24T22:15:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myBefore -->
-        <test-method status="PASS" signature="driverDFTest()[pri:0, instance:Demo3Pro.NewTest@ba4d54]" name="driverDFTest" duration-ms="24126" started-at="2015-06-19T00:00:06Z" finished-at="2015-06-19T00:00:30Z">
+        <test-method status="PASS" signature="driverDFTest()[pri:0, instance:Demo3Pro.NewTest@d70c109]" name="driverDFTest" duration-ms="24691" started-at="2015-06-24T22:15:50Z" finished-at="2015-06-24T22:16:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverDFTest -->
-        <test-method status="PASS" signature="myEndCode()[pri:0, instance:Demo3Pro.NewTest@ba4d54]" name="myEndCode" is-config="true" duration-ms="92" started-at="2015-06-19T00:00:30Z" finished-at="2015-06-19T00:00:30Z">
+        <test-method status="PASS" signature="myEndCode()[pri:0, instance:Demo3Pro.NewTest@d70c109]" name="myEndCode" is-config="true" duration-ms="120" started-at="2015-06-24T22:16:15Z" finished-at="2015-06-24T22:16:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myEndCode -->
       </class> <!-- Demo3Pro.NewTest -->
-    </test> <!-- Test One -->
-  </suite> <!-- Suite One -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
